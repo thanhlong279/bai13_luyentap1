@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [];
+    let count = 0;
+    let index = 0;
+
+    // for (let i = 0; i < 10; i++) {
+    //     arr[i] = parseInt(prompt("nhap so nguyen vao mang: "));
+    //     if (isNaN(arr[i]) || !Number.isInteger(arr[i])) {
+    //         arr[i] = +prompt("ban da nhap sai, moi nhap lai: ");
+    //     }
+    // }
+    //         bai1:
+    //             if(arr[i] >= 10){
+    //                 count ++;
+    //             }
+    //         }
+    //         document.write("co "+ x +"lon hon hoac bang 10 trong mang vua nhap");
+            //bai2:
+    //     let max = arr[0];
+    //     for (let j = 1; j < 10; j++) {
+    //         if (arr[j] > max) {
+    //             max = arr[j];
+    //             index = j;
+    //         }
+    //     }
+    // console.log(arr);
+    // console.log("max= " + max + " at position " + index);
+    //bai3:
+    // let arr = [];
+    // let index = 0;
+    // let average = 0;
+    //  let length = arr.length;
+    // let num = +prompt("nhap do dai cua mang: ");
+    // if (isNaN(num) || num <= 0 || !Number.isInteger(num)) {
+    //     let num = +prompt("ban da nhap sai moi ban nhap lai: ");
+    // }
+    //     for (let i = 0; i < num; i++) {
+    //         arr[i] = +prompt(" moi ban nhap so nguyen: ");
+    //         if (isNaN(arr[i]) || !Number.isInteger(arr[i])) {
+    //             arr[i] = +prompt("nhap sai; moi ban nhap vao so nguyen: ");
+    //         }
+    //     }
+    //     let max = arr[0];
+    // for (let j = 0; j < num; j++) {
+    //     if(arr[j] > max) {
+    //         max = arr[j];
+    //         index = j;
+    //     }
+    //     average += arr[j]/num;
+    }
+    // console.log(arr);
+    // console.log("gia tri lon nhat trong mang la: "+ max + "tai vi tri: " + index);
+    // console.log("gia tri trung bình cua chuoi bang: "+ average);
+    //bai 4:
+    // let arr = [];
+    // let length = + prompt("nhap do dai cua mang: ");
+    // if((isNaN(length)) || length <= 0 || !Number.isInteger(length)){
+    //     length = +prompt("ban da nhap sai moi ban nhap lai: ");
+    // }
+    // for (let i = 0; i < length; i++) {
+    //     arr[i] = +prompt(" nhap so nguyen vao mang: ");
+    //     if((isNaN(arr[i])) || !Number.isInteger(arr[i])){
+    //         arr[i] = +prompt("ban da nhap sai, nhap lai: ")
+    //     }
+    // }
+    // for (let j = 0; j < length; j++) {
+    // }
+    // console.log("mang truoc khi dao nguoc cac phan tu" + arr);
+    // let arr1 = arr.reverse().join();
+    // console.log("mang sau khi dao nguoc cac phan tu: " + arr1);
+    //bai 5:
+   //  let list = prompt("chuoi ki tu tuy nguoi dung nhap sao: ");
+   // let arr = [];
+   //  arr = list;
+   // let count = 0;
+   //  for (let i = 1; i < arr.length; i++) {
+   //      if((arr[i-1]) === "-" && arr[i] > 0){
+   //          count++;
+   //      }
+   //  }
+   //  console.log(arr);
+   //  console.log(count);
+    // bai 5B:
+    // let str = prompt("nhap chuoi ki tu: ");
+    // // list cac nguyen am
+    // let list = "aoueiAOUEI";
+    // let arr = [];
+    // arr = str;
+    // let count = 0;
+    // for (let i = 0; i < arr.length; i++) {
+    //     if( list.indexOf(arr[i]) !== -1){
+    //         count++;
+    //     }
+    // }
+    // console.log(arr)
+    // console.log("so luong nguyen am la: " + count);
+    //bai 6:
+    // let arr = [];
+    // for (let i = 0; i < 5; i++) {
+    //     arr[i] = +prompt("nhap 10 so nguyen vao: ");
+    //     if((isNaN(arr[i])) || !Number.isInteger(arr[i])){
+    //         arr[i] = +prompt("ban nhap sai nhap lai so nguyen: ");
+    //     }
+    // }
+    // let num = +prompt(" nhap so nguyen V: ");
+    // for (let j = 0; j < 5; j++) {
+    //     if(arr[j] === num){
+    //         console.log("V is in the array, tai vi tri " + j + " trong mang");
+    //     }else{
+    //         console.log("V is not in the array");
+    //     }
+        //bai 7:
+        //     if(arr[j] === num){
+        //         arr.splice(j, 1);
+        //     }
+        // }
+        // console.log(arr);
+        //bai 8:
+
+    // }
+    // console.log("mang truoc khi sap xep: "+ arr);
+    // // sap xep mang tang dan.
+    // let arr1 = arr.sort();
+    // // sap xep mang giam dan.
+    // console.log("mang sau khi sap xep giam dan : "+ arr1.reverse());
+    // bai 9:
+    let a = [];
+    let b = [];
+    let c = [];
+    for (let i = 0; i < 5; i++) {
+        a[i] = +prompt(" nhap 10 phan tu so nguyen mang a: ");
+        if(isNaN(a[i]) || !Number.isInteger(a[i])){
+            a[i] = prompt(" ban nhap sai moi ban nhap lai so nguyen: ");
+        }
+    }
+    for (let j = 0; j < 5; j++) {
+       b[j] = +prompt(" nhap 10 phan tu so nguyen mang b: ");
+       if(isNaN(b[j]) || !Number.isInteger(b[j])){
+           b[j] = prompt(" ban nhap sai moi ban nhap lai so nguyen: ");
+       }
+    }
+    c = a.concat(b);
+    console.log("các phần tử của mảng c là :" + c);
+</script>
+</body>
+</html>
